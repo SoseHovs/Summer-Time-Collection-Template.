@@ -1,0 +1,435 @@
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+
+  @media only screen and (max-width: 952px) {
+    .california_img_wrapper_1 img:nth-child(1){
+      width: 250px;
+    }
+    .california_img_wrapper_1 img:nth-child(3){
+      bottom: -240px;
+    left: -66px;
+
+    }
+    .california_img_wrapper_2{
+      top: -80px;
+    }
+    .california_img_wrapper_2 img:nth-child(1){
+      width: 355px;
+    height: 281px;
+    }
+
+    .view_store{
+      height: 130px;
+    }
+    .view_store h2{
+      font-size: 10px;
+    }
+    .view_store p{
+      font-size: 9px;
+    }
+
+  }
+
+  @media only screen and (max-width: 936px) {
+    .poster_item {
+      margin: 9px 0;}
+
+.day_dreamer img:first-child{
+  display: none;
+}
+
+.lafemme img:last-child{
+  display: none;
+}
+}
+  /* Small Devices, Tablets */
+  @media only screen and (max-width: 900px) {
+
+.poster_list{
+  flex-direction: column;
+  align-items: center;
+}
+.poster_item img{
+  height: 344px;
+    width: 322px;
+}
+
+.poster_item h2{
+  margin-top: 0;
+}
+
+.poster_item_modif  h2{
+order: 2;
+}
+
+.poster_item_modif p {
+  order: 3;
+  }
+.poster_list p{
+ text-align: right;
+width: 60%;
+}
+.fashion_list p{
+  text-align: center;
+}
+
+
+
+    .california_img_wrapper_1 img:nth-child(1){
+      width: 190px;
+    height: 245px;
+}
+    
+    
+
+    .decorative_box {
+      background-color: #a68053bf;
+      width: 80px;
+      height: 70px;
+      position: absolute;
+      bottom: 0px;
+      left: -30px;
+  }
+    .california_img_wrapper_1 img:nth-child(3){
+      bottom: -216px;
+    left: -50px;
+    width: 150px;
+
+    }
+    .california_img_wrapper_2{
+      top: -15px;
+    }
+    .california_img_wrapper_2 img:nth-child(1){
+      width: 255px;
+    height: 206px;}
+
+    .california_img_wrapper_2 img:last-child{
+
+
+      right: -81px;
+    bottom: -140px;
+    width: 181px;
+    height: 174px;
+    }
+
+
+
+.view_store{
+  height: 135px;
+  width: 249px;
+  margin: 0 auto;
+    }
+  
+    .view_store p{
+      font-size: 8px;
+      margin-right: 3px;
+      color: black;
+    }
+    .view_store button {
+      padding: 15px 25px;}
+
+
+
+    }
+
+}
+
+ @media only screen and (max-width:770px) {
+   .img_list_first img:last-child, .img_list_third img:last-child{
+    display: none;
+   }
+   .img_list_second {
+    flex-direction: column;
+  }
+
+.img_list_second .view_title{
+  left: 50%;
+  right: 50%;
+  transform: translate(-50%);
+  padding:10px 0;
+
+}
+
+
+
+}
+  @media only screen and (max-width: 689px) {
+     .banner_title h3 span {
+      font-size: 7.6vw;
+    }
+
+  }
+
+  @media only screen and (max-width: 612px) {
+
+.soc_buttons{
+  flex-direction: column;
+  align-items: center;
+}
+
+
+    .california_img_wrapper_1{
+      display: block;
+      width: 45%;
+      margin: 0 auto;
+}
+.california_img_wrapper_2 img:nth-child(1) {
+  width: 200px;
+  height: 163px; }
+
+  .california_img_wrapper_2 {
+    top: 146px;
+    left: 30px;}
+
+
+    .california_img_wrapper_2 img:last-child {
+      right: 129px;
+      bottom: -130px;
+      width: 150px;
+      height: 148px;}
+
+.gallery{
+  margin-top: 0;
+}
+
+.california_img_wrapper_1 img:nth-child(1) {
+  width: 190px;
+  height: 245px;
+  transform: translateY(-40px);
+}
+.decorative_box{
+  transform: translateY(-28px);
+}
+
+.california_img_wrapper_1 img:nth-child(3) {
+  bottom: -170px;
+  left: -68px;
+  width: 210px;
+}
+
+
+.california_img_wrapper_2 {
+  top: 80px;
+  left: 45px;
+}
+
+.view_store {
+  height: 350px;
+  margin: 0 auto;
+
+ }
+  }
+
+  @media only screen and (max-width: 594px) and (min-width: 499px) {
+    
+    .header_banner {
+      height: 600px;
+    }
+    
+    .nav_wrapper {
+      width: 95%;
+    }
+
+     .navigation_item{
+      margin-right: 10px;
+    }
+    .user_navigation a{
+      padding: 23px 6px;
+    }
+
+  }
+
+
+  @media only screen and (max-width:518px) {
+    .img_list_first img:first-child{
+      display: none;
+    }
+   
+    .img_list_third {
+      display: none;
+    }
+
+    .img_list_second .view_title {
+      width: 300px;
+      height: 250px;
+      line-height: 1.4;
+  }
+ .view_title p{
+  width: 84%;
+    margin: 25px auto;
+}
+.submission_form form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 90px;
+}
+    
+
+
+  .bg_img{
+    flex-direction: column;
+
+  }
+
+
+  .dreamer_view_store {
+    top: 30%;
+    bottom: 50%;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+}
+
+.dreamer_view_store {
+  width: 285px;
+  height: 350px;}
+
+
+  .dreamer_view_store p {
+    font-size: 14px;
+  }
+
+}
+
+
+  @media only screen and (max-width: 499px) {
+    .user_navigation li {
+      display: none;
+      padding-top: 10px;
+    }
+    .header_banner {
+      height: 500px;
+    }
+    
+
+    .user_navigation li:nth-child(4){
+      display: block
+     }
+  }
+
+
+  @media only screen and (max-width: 402px){
+    .img_list_second{
+      width: 100%;
+    }
+  }
+
+
+/* Extra large devices */
+@media only screen and (min-width: 1440px) {
+  .header_banner{
+    height: 62vw;
+    font-size: 1.5vw;
+  }
+
+  .banner_title {
+    width: 424px;
+    height: 424px;
+   
+}
+
+
+.banner_title h3 {
+  margin-top: 30%;
+  font-size: 40px;
+
+}
+
+
+.banner_title h3 span {
+  font-size: 70px;
+  margin-top: 50px;
+  margin-right: 6%;
+
+}
+
+
+.california_img_wrapper_1 img:nth-child(1){
+  width: 443px;
+  height: auto;
+}
+.decorative_box{
+  width: 210px;
+  height: 200px;
+  bottom: -90px;
+    left: -74px;
+}
+
+.california_img_wrapper_1 img:last-child {
+  position: absolute;
+  bottom: -308px;
+  left: -231px;
+  z-index: -1;
+  width: 300px;
+  height: 275px;
+}
+
+.california_img_wrapper_2 img:nth-child(1) {
+  width: 495px;
+  height: 387px;
+}
+
+.california_img_wrapper_2 {
+
+  top: -86px;
+}
+
+.california_img_wrapper_2 img:last-child {
+  position: absolute;
+  right: -215px;
+  bottom: -345px;
+  width: 360px;
+  height: 403px;
+}
+.view_store h2{
+  font-size: 26px;
+  margin-bottom: 30px;
+}
+
+.view_store p{
+  font-size: 18px;
+    line-height: 2;
+}
+
+
+.view_store button {
+  padding: 30px 100px;
+  font-size: 20px;
+}
+
+.view_store{
+  height: 275px;
+}
+
+}
+
+@media only screen and (min-width:1733px){
+  body{
+    width: 1733px;
+    margin: 0 auto;
+  }
+  
+  .banner_title {
+    width: 524px;
+    height: 524px;
+   
+}
+
+
+.banner_title h3 {
+  margin-top: 35%;
+  font-size: 45px;
+
+}
+
+
+.banner_title h3 span {
+  margin-right: calc(20% + 25vw);
+  transform: translateX(77%);
+
+}
+}
